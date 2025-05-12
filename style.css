@@ -1,0 +1,96 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: burlywood;
+  color: solid red;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkcyan;
+  padding: 20px 40px;
+  color: rgb(48, 43, 43);
+}
+
+.brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Responsive Navbar (pure CSS) */
+@media (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* Main Content */
+.menu-content {
+  padding: 100px;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2em;
+  color: #222;
+}
+
+.menu-category h2 {
+  color: #d94f04;
+  margin-top: 50px;
+}
+
+.dish-list {
+  list-style: none;
+  padding: 0;
+}
+
+.dish-item {
+  background-color: #f9f6f0;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid #d94f04;
+  border-radius: 1cm;
+  
+}
+
+.dish-item strong {
+  font-size: 1.1em;
+  display: block;
+  margin-bottom: 5px;
+  color: #111;
+}
+
+.contact-link {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact-link a {
+  color: #d94f04;
+  font-weight: bold;
+  text-decoration: none;
+}

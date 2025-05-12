@@ -4,58 +4,81 @@
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">   
   <title>Delicious Bites Menu</title> 
+  <!-- Roboto Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>   
-  <h1>Delicious Bites Menu</h1>
+<body class="menu-page">   
 
-  <h2>Appetizers</h2>  
-  <ul>     
-    <li>          
-      <strong>Caprese Salad</strong>       
-      <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p> 
-    </li>
-    <li>
-      <strong>Stuffed Mushrooms</strong>
-      <p>Button mushrooms filled with garlic herb cheese and baked until golden.</p>
-    </li>
-    <li>
-      <strong>Spicy Shrimp Skewers</strong>
-      <p>Grilled shrimp marinated in a spicy chili-lime sauce, served with aioli dip.</p>
-    </li>
-  </ul>  
+  <nav class="navbar">
+    <div class="brand">Menu</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main class="menu-content">
+    <h1 class="main-title">Delicious Bites Menu</h1>
 
-  <h2>Main Courses</h2> 
-  <ul>   
-    <li>      
-      <strong>Grilled Salmon</strong>     
-      <p>Salmon fillet seasoned and grilled to perfection, served with lemon butter sauce.</p>   
-    </li>
-    <li>
-      <strong>Classic Lasagna</strong>
-      <p>Layers of pasta, ricotta, beef ragu, and melted mozzarella cheese, baked to a golden crust.</p>
-    </li>
-    <li>
-      <strong>Vegetarian Stir-Fry</strong>
-      <p>A colorful medley of vegetables sautéed in soy-ginger sauce, served over jasmine rice.</p>
-    </li>
-  </ul>   
+    <section class="menu-category">
+      <h2>Appetizers</h2>  
+      <ul class="dish-list">     
+        <li class="dish-item">
+          <strong>Caprese Salad</strong>       
+          <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p> 
+        </li>
+        <li class="dish-item">
+          <strong>Stuffed Mushrooms</strong>
+          <p>Button mushrooms filled with garlic herb cheese and baked until golden.</p>
+        </li>
+        <li class="dish-item">
+          <strong>Spicy Shrimp Skewers</strong>
+          <p>Grilled shrimp marinated in a spicy chili-lime sauce, served with aioli dip.</p>
+        </li>
+      </ul>  
+    </section>
 
-  <h2>Desserts</h2>  
-  <ul>     
-    <li>    
-      <strong>Chocolate Fondue</strong>     
-      <p>Assorted fruits and marshmallows served with rich chocolate fondue.</p>    
-    </li>
-    <li>
-      <strong>Lemon Cheesecake</strong>
-      <p>Creamy cheesecake with a graham cracker crust and a zesty lemon topping.</p>
-    </li>
-    <li>
-      <strong>Berry Parfait</strong>
-      <p>Layers of vanilla yogurt, granola, and mixed berries in a tall glass.</p>
-    </li>
-  </ul> 
+    <section class="menu-category">
+      <h2>Main Courses</h2> 
+      <ul class="dish-list">   
+        <li class="dish-item">
+          <strong>Grilled Salmon</strong>     
+          <p>Salmon fillet seasoned and grilled to perfection, served with lemon butter sauce.</p>   
+        </li>
+        <li class="dish-item">
+          <strong>Classic Lasagna</strong>
+          <p>Layers of pasta, ricotta, beef ragu, and melted mozzarella cheese, baked to a golden crust.</p>
+        </li>
+        <li class="dish-item">
+          <strong>Vegetarian Stir-Fry</strong>
+          <p>A colorful medley of vegetables sautéed in soy-ginger sauce, served over jasmine rice.</p>
+        </li>
+      </ul>   
+    </section>
 
-  <p><a href="contact.html">Contact us for reservations</a></p> 
+    <section class="menu-category">
+      <h2>Desserts</h2>  
+      <ul class="dish-list">     
+        <li class="dish-item">
+          <strong>Chocolate Fondue</strong>     
+          <p>Assorted fruits and marshmallows served with rich chocolate fondue.</p>    
+        </li>
+        <li class="dish-item">
+          <strong>Lemon Cheesecake</strong>
+          <p>Creamy cheesecake with a graham cracker crust and a zesty lemon topping.</p>
+        </li>
+        <li class="dish-item">
+          <strong>Berry Parfait</strong>
+          <p>Layers of vanilla yogurt, granola, and mixed berries in a tall glass.</p>
+        </li>
+      </ul> 
+    </section>
+
+    <p class="contact-link"><a href="contact.html">Contact us for reservations</a></p>
+  </main>
+
 </body>
 </html>
